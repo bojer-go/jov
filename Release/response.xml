@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Message>
+    <OSYS>
+        <ServiceCode>60120001</ServiceCode>
+        <SceneCode>01</SceneCode>
+        <TxStatus>S</TxStatus>
+        <HostCpuDt />
+        <HostProcTime />
+        <TxLogNo />
+        <SvrNodeId>MC</SvrNodeId>
+        <MsgCode>000000</MsgCode>
+        <MsgTxt />
+        <MAC />
+        <RetAddFld1 />
+        <GloSno />
+    </OSYS>
+    <CommRes>
+        <chulizht>0000</chulizht>
+        <jiaoyima>MC001</jiaoyima>
+        <shijchuo>2021-07-19 15:23:21.242</shijchuo>
+    </CommRes>
+    <Resp>
+        <shjihaom>13078571007</shjihaom>
+    </Resp>
+</Message>

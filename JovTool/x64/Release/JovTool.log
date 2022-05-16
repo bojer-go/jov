@@ -1,0 +1,115 @@
+﻿生成启动时间为 2021-11-17 8:58:33。
+     1>项目“E:\Source\MFC\JovTool\JovTool\JovTool.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I../Public/Include /IE:\Source\MFC\JovTool\CEF\x64\ /Zi /nologo /W3 /WX- /O2 /Oi /GL /D _WINDOWS /D NDEBUG /D _UNICODE /D UNICODE /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"x64\Release\JovTool.pch" /Fo"x64\Release\\" /Fd"x64\Release\vc120.pdb" /Gd /TP /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I../Public/Include /IE:\Source\MFC\JovTool\CEF\x64\ /Zi /nologo /W3 /WX- /O2 /Oi /GL /D _WINDOWS /D NDEBUG /D _UNICODE /D UNICODE /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"x64\Release\JovTool.pch" /Fo"x64\Release\\" /Fd"x64\Release\vc120.pdb" /Gd /TP /errorReport:prompt ..\Public\Src\encode.cpp ..\Public\Src\Markup.cpp ..\Public\Src\md5.cpp ..\Public\Src\Pub.cpp ..\Public\Src\Thread.cpp ..\Public\Src\tinystr.cpp ..\Public\Src\tinyxml.cpp ..\Public\Src\tinyxmlerror.cpp ..\Public\Src\tinyxmlparser.cpp ..\Public\Src\utilities.cpp CatchPack.cpp HttpClient.cpp JovTool.cpp JovToolDlg.cpp SocketHandle.cpp surf.cpp TempletWeb.cpp webHandler.cpp
+         encode.cpp
+     1>..\Public\Src\encode.cpp(121): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\Public\Src\encode.cpp(158): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\Public\Src\encode.cpp(175): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\Public\Src\encode.cpp(177): warning C4267: “参数”: 从“size_t”转换到“unsigned int”，可能丢失数据
+         Markup.cpp
+         md5.cpp
+         Pub.cpp
+     1>..\Public\Src\Pub.cpp(42): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\Public\Src\Pub.cpp(45): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\Public\Src\Pub.cpp(53): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\Public\Src\Pub.cpp(54): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+         Thread.cpp
+         tinystr.cpp
+         tinyxml.cpp
+         tinyxmlerror.cpp
+         tinyxmlparser.cpp
+         utilities.cpp
+     1>e:\source\mfc\jovtool\public\include\Protocol.h(17): warning C4091: “typedef ”: 没有声明变量时忽略“ethhdr”的左侧
+     1>e:\source\mfc\jovtool\public\include\Protocol.h(31): warning C4091: “typedef ”: 没有声明变量时忽略“arphdr”的左侧
+     1>e:\source\mfc\jovtool\public\include\Protocol.h(53): warning C4091: “typedef ”: 没有声明变量时忽略“iphdr”的左侧
+     1>e:\source\mfc\jovtool\public\include\Protocol.h(105): warning C4091: “typedef ”: 没有声明变量时忽略“tcphdr”的左侧
+     1>e:\source\mfc\jovtool\public\include\Protocol.h(128): warning C4091: “typedef ”: 没有声明变量时忽略“udphdr”的左侧
+     1>e:\source\mfc\jovtool\public\include\Protocol.h(137): warning C4091: “typedef ”: 没有声明变量时忽略“icmphdr”的左侧
+     1>e:\source\mfc\jovtool\public\include\Protocol.h(156): warning C4091: “typedef ”: 没有声明变量时忽略“iphdr6”的左侧
+     1>e:\source\mfc\jovtool\public\include\Protocol.h(168): warning C4091: “typedef ”: 没有声明变量时忽略“icmphdr6”的左侧
+     1>e:\source\mfc\jovtool\public\include\Protocol.h(183): warning C4091: “typedef ”: 没有声明变量时忽略“pktcount”的左侧
+     1>e:\source\mfc\jovtool\public\include\Protocol.h(205): warning C4091: “typedef ”: 没有声明变量时忽略“datapkt”的左侧
+     1>..\Public\Src\utilities.cpp(118): warning C4101: “i”: 未引用的局部变量
+     1>..\Public\Src\utilities.cpp(319): warning C4101: “p”: 未引用的局部变量
+         CatchPack.cpp
+     1>E:\Source\MFC\JovTool\Public\Include\Protocol.h(17): warning C4091: “typedef ”: 没有声明变量时忽略“ethhdr”的左侧
+     1>E:\Source\MFC\JovTool\Public\Include\Protocol.h(31): warning C4091: “typedef ”: 没有声明变量时忽略“arphdr”的左侧
+     1>E:\Source\MFC\JovTool\Public\Include\Protocol.h(53): warning C4091: “typedef ”: 没有声明变量时忽略“iphdr”的左侧
+     1>E:\Source\MFC\JovTool\Public\Include\Protocol.h(105): warning C4091: “typedef ”: 没有声明变量时忽略“tcphdr”的左侧
+     1>E:\Source\MFC\JovTool\Public\Include\Protocol.h(128): warning C4091: “typedef ”: 没有声明变量时忽略“udphdr”的左侧
+     1>E:\Source\MFC\JovTool\Public\Include\Protocol.h(137): warning C4091: “typedef ”: 没有声明变量时忽略“icmphdr”的左侧
+     1>E:\Source\MFC\JovTool\Public\Include\Protocol.h(156): warning C4091: “typedef ”: 没有声明变量时忽略“iphdr6”的左侧
+     1>E:\Source\MFC\JovTool\Public\Include\Protocol.h(168): warning C4091: “typedef ”: 没有声明变量时忽略“icmphdr6”的左侧
+     1>E:\Source\MFC\JovTool\Public\Include\Protocol.h(183): warning C4091: “typedef ”: 没有声明变量时忽略“pktcount”的左侧
+     1>E:\Source\MFC\JovTool\Public\Include\Protocol.h(205): warning C4091: “typedef ”: 没有声明变量时忽略“datapkt”的左侧
+         HttpClient.cpp
+     1>HttpClient.cpp(184): warning C4267: “参数”: 从“size_t”转换到“DWORD”，可能丢失数据
+     1>HttpClient.cpp(118): warning C4101: “dwFlags”: 未引用的局部变量
+         JovTool.cpp
+     1>E:\Source\MFC\JovTool\Public\Include\Protocol.h(17): warning C4091: “typedef ”: 没有声明变量时忽略“ethhdr”的左侧
+     1>E:\Source\MFC\JovTool\Public\Include\Protocol.h(31): warning C4091: “typedef ”: 没有声明变量时忽略“arphdr”的左侧
+     1>E:\Source\MFC\JovTool\Public\Include\Protocol.h(53): warning C4091: “typedef ”: 没有声明变量时忽略“iphdr”的左侧
+     1>E:\Source\MFC\JovTool\Public\Include\Protocol.h(105): warning C4091: “typedef ”: 没有声明变量时忽略“tcphdr”的左侧
+     1>E:\Source\MFC\JovTool\Public\Include\Protocol.h(128): warning C4091: “typedef ”: 没有声明变量时忽略“udphdr”的左侧
+     1>E:\Source\MFC\JovTool\Public\Include\Protocol.h(137): warning C4091: “typedef ”: 没有声明变量时忽略“icmphdr”的左侧
+     1>E:\Source\MFC\JovTool\Public\Include\Protocol.h(156): warning C4091: “typedef ”: 没有声明变量时忽略“iphdr6”的左侧
+     1>E:\Source\MFC\JovTool\Public\Include\Protocol.h(168): warning C4091: “typedef ”: 没有声明变量时忽略“icmphdr6”的左侧
+     1>E:\Source\MFC\JovTool\Public\Include\Protocol.h(183): warning C4091: “typedef ”: 没有声明变量时忽略“pktcount”的左侧
+     1>E:\Source\MFC\JovTool\Public\Include\Protocol.h(205): warning C4091: “typedef ”: 没有声明变量时忽略“datapkt”的左侧
+         JovToolDlg.cpp
+     1>E:\Source\MFC\JovTool\Public\Include\Protocol.h(17): warning C4091: “typedef ”: 没有声明变量时忽略“ethhdr”的左侧
+     1>E:\Source\MFC\JovTool\Public\Include\Protocol.h(31): warning C4091: “typedef ”: 没有声明变量时忽略“arphdr”的左侧
+     1>E:\Source\MFC\JovTool\Public\Include\Protocol.h(53): warning C4091: “typedef ”: 没有声明变量时忽略“iphdr”的左侧
+     1>E:\Source\MFC\JovTool\Public\Include\Protocol.h(105): warning C4091: “typedef ”: 没有声明变量时忽略“tcphdr”的左侧
+     1>E:\Source\MFC\JovTool\Public\Include\Protocol.h(128): warning C4091: “typedef ”: 没有声明变量时忽略“udphdr”的左侧
+     1>E:\Source\MFC\JovTool\Public\Include\Protocol.h(137): warning C4091: “typedef ”: 没有声明变量时忽略“icmphdr”的左侧
+     1>E:\Source\MFC\JovTool\Public\Include\Protocol.h(156): warning C4091: “typedef ”: 没有声明变量时忽略“iphdr6”的左侧
+     1>E:\Source\MFC\JovTool\Public\Include\Protocol.h(168): warning C4091: “typedef ”: 没有声明变量时忽略“icmphdr6”的左侧
+     1>E:\Source\MFC\JovTool\Public\Include\Protocol.h(183): warning C4091: “typedef ”: 没有声明变量时忽略“pktcount”的左侧
+     1>E:\Source\MFC\JovTool\Public\Include\Protocol.h(205): warning C4091: “typedef ”: 没有声明变量时忽略“datapkt”的左侧
+     1>JovToolDlg.cpp(336): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>JovToolDlg.cpp(344): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+     1>JovToolDlg.cpp(351): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+     1>JovToolDlg.cpp(372): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+     1>JovToolDlg.cpp(554): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+     1>JovToolDlg.cpp(923): warning C4244: “初始化”: 从“ULONGLONG”转换到“int”，可能丢失数据
+     1>JovToolDlg.cpp(1051): warning C4553: “==”: 运算符不起任何作用；是否是有意使用“=”的?
+         SocketHandle.cpp
+     1>SocketHandle.cpp(39): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+         surf.cpp
+         TempletWeb.cpp
+         webHandler.cpp
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\rc.exe /D NDEBUG /D _UNICODE /D UNICODE /l"0x0409" /Ix64\Release\ /nologo /fo"x64\Release\JovTool.res" JovTool.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"E:\Source\MFC\JovTool\x64\Release\JovTool.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:..\Lib64 /LIBPATH:..\Lib64\Release\ /LIBPATH:E:\Source\MFC\JovTool\CEF\x64\Release libcef.lib libcef_dll_wrapper.lib zlibwapi.lib wpcap.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\Include\Manifest\dpiaware.manifest" /DEBUG /PDB:"E:\Source\MFC\JovTool\x64\Release\JovTool.pdb" /SUBSYSTEM:WINDOWS /STACK:"16000000","16000000" /OPT:REF /OPT:ICF /LTCG /TLBID:1 /ENTRY:"wWinMainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\Source\MFC\JovTool\x64\Release\JovTool.lib" /MACHINE:X64 x64\Release\JovTool.res
+         x64\Release\encode.obj
+         x64\Release\Markup.obj
+         x64\Release\md5.obj
+         x64\Release\Pub.obj
+         x64\Release\Thread.obj
+         x64\Release\tinystr.obj
+         x64\Release\tinyxml.obj
+         x64\Release\tinyxmlerror.obj
+         x64\Release\tinyxmlparser.obj
+         x64\Release\utilities.obj
+         x64\Release\CatchPack.obj
+         x64\Release\HttpClient.obj
+         x64\Release\JovTool.obj
+         x64\Release\JovToolDlg.obj
+         x64\Release\SocketHandle.obj
+         x64\Release\stdafx.obj
+         x64\Release\surf.obj
+         x64\Release\TempletWeb.obj
+         x64\Release\webHandler.obj
+         正在生成代码
+         已完成代码的生成
+         JovTool.vcxproj -> E:\Source\MFC\JovTool\x64\Release\JovTool.exe
+     1>已完成生成项目“E:\Source\MFC\JovTool\JovTool\JovTool.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:32.93
